@@ -25,5 +25,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # example files
-/src/RedQueenRaceEx.js
-/src/style.css
+/src/components/style.css
+src/components/RedQueenRaceEx.js
