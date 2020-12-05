@@ -113,7 +113,7 @@ const RedQueenRace = () => {
 
 		setInterval(() => {
 			if (redQueenPlaybackRate.current > 0.4) {
-				redQueenPlaybackRate.current *= 0.99;
+				redQueenPlaybackRate.current *= 0.95;
 				redQueenAlice.getAnimation().playbackRate =
 					redQueenPlaybackRate.current;
 			}
