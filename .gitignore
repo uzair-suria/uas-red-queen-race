@@ -23,3 +23,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# example files
+/src/RedQueenRaceEx.js
+/src/style.css
