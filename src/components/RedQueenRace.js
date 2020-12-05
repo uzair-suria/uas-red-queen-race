@@ -112,8 +112,8 @@ const RedQueenRace = () => {
 		bg1Animation.currentTime = bg1Animation.effect.getTiming().duration / 2;
 
 		setInterval(() => {
-			if (redQueenPlaybackRate.current > 0.4) {
-				redQueenPlaybackRate.current *= 0.95;
+			if (redQueenPlaybackRate.current > 0.19) {
+				redQueenPlaybackRate.current *= 0.9;
 				redQueenAlice.getAnimation().playbackRate =
 					redQueenPlaybackRate.current;
 			}
